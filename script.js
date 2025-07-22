@@ -62,4 +62,6 @@ function handleClick(playerSelection) {
 
 document.getElementById('rock').addEventListener('click', () => handleClick('rock'));
 document.getElementById('paper').addEventListener('click', () => handleClick('paper'));
-document.getElementById('scissors').addEventListener('click', () =
+document.getElementById('scissors').addEventListener('click', () => handleClick('scissors'));
+
+updateScore();
